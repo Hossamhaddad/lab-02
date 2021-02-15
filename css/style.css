@@ -1,0 +1,14 @@
+img{
+    width: 200px;
+    height: 200px;
+   
+}
+#photo-template{
+    display: none;
+}
+div{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
