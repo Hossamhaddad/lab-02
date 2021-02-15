@@ -9,6 +9,11 @@
 
 ## Actual time needed to complete:1 hour
 
+
+
+
+
+
 ## Number and name of feature: 2
 
 ## Estimate of time needed to complete: 1:30 hour 
@@ -18,6 +23,14 @@
 ## Finish time: 7:00
 
 ## Actual time needed to complete:1:30 hour
+
+
+
+
+
+
+
+
 
 ## Number and name of feature: 3
 
