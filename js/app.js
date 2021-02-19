@@ -97,7 +97,6 @@ $('#select').on('change', function () {
 
 $('#page1').on('click',function(){
     $('main').html('');
-    allImg2=[];
     allImg.forEach(item => {
             let newImage = new TemplateImages(item);
             let render=newImage.render();
@@ -114,14 +113,15 @@ $('#page1').on('click',function(){
             if (item.keyword == $('#select').val()) {
     
                 let newImage = new TemplateImages(item);
-                let render=newImage.render();
+               
                 if (allImg.includes(newImage)) {
                     allImg.pop(newImage);
                 }
                 if (allImg2.includes(newImage)) {
                     allImg2.pop(newImage);
+                    allImg.pop(newImage);
                 }
-            
+             let render=newImage.render();
                 $('main').append(render);
     
             }

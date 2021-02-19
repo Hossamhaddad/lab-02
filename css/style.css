@@ -1,16 +1,21 @@
 img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
    
 }
 #photo-template{
     display: none;
 }
 div{
+    max-width: 300px;
+    max-height: 300px;
     display: inline-block;
-    width: 25%;
+    width: 20%;
     text-align: center;
-
+    margin-left: 40px;
+    border: solid black 1px;
+    margin-top:10px ;
+    margin-bottom: 10px;
 }
 button{
     width: 100px;
